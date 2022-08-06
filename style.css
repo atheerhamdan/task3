@@ -1,0 +1,25 @@
+ body{font-family:  Helvetica, Verdana, sans-serif;font-weight: bold; padding-bottom: 50px;}
+.box  {padding: 10px 20px;right: 20%;  position: absolute; left: 20%; top:15%;  min-height:60%; margin-bottom: 100px;   border-radius: 20px;  background-color: #f2f2f2; border: 1px black solid;}                
+.box h2 {position: relative;   margin-top: 100px;   text-align:  center;}
+ nav{  height: 50px;width: 100%; top: 0; left: 0; right:0;  margin: 0; padding: 0;  border-width: 1px;border-bottom: 1px #aaa solid;}
+ nav ul {list-style-type: none; margin: 0; padding: 0;  overflow: hidden;}
+ ul li {  float: right;  }
+ ul li a {display: inline-block; color: black; text-align: right;padding: 14px 16px; text-decoration: none;}
+ li a:hover { background-color:black;color: white}
+.form-group{  margin-top: 33px; display: flex; margin-left:22px;   margin-right: 22px;}
+.label2{ flex: 2;align-items:  flex-start;margin-top: 21px;}
+.form-fields{flex: 10; outline: none; height: 30px; color:  gray;font-size: 16px; margin-top: 15px;  }
+.box .setting{position: relative;     display: flex; justify-content: center;  align-items: center;   margin-top: 40px;}
+.btn-submit{ background-color:black;width: 30%;color: white;height: 40px;}
+
+table{ width: 100%; border: 1px black solid;border-collapse: collapse ;}
+thead{}
+th,td{text-align: center;padding: 10px;  border-bottom:  1px black solid;}
+
+tr:nth-child(odd){background-color: #fff;}
+
+th{ background-color: #04AA6D;
+color: white}
+td{font-weight:  normal;}
+.sucess{font-weight:  normal; color: white;background-color: green; margin-top: 20px;padding-top: 10px;padding-right:    20px; height: 30px;}
+.error{font-weight:  normal; color: white;background-color: red; margin-top: 20px;padding-top: 10px; padding-right:    20px;height: 30px;}
